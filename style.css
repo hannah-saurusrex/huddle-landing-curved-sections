@@ -40,8 +40,9 @@ img {
 .btn-primary {
 	color: white;
 	background-color: var(--pink);
-	padding: 15px 45px;
+	padding: 20px 85px;
 	margin: 15px 0;
+	font-weight: 700;
 }
 
 .btn-secondary {
@@ -80,6 +81,13 @@ nav {
 	line-height: 1.5;
 }
 
+.screen-mockup {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+
 .flex {
 	display: flex;
 	justify-content: space-around;
@@ -115,6 +123,22 @@ nav {
 	width: 80%;
 	max-width: 100%;
 	line-height: 1.5;
+}
+
+.box-right {
+	margin-left: 50px;
+	width: 100%;
+}
+
+.cta {
+	text-align: center;
+	margin: 30px auto;
+}
+
+.cta h2 {
+	font-size: 2rem;
+	color: var(--darkCyan);
+	letter-spacing: 0.75px;
 }
 
 footer {
