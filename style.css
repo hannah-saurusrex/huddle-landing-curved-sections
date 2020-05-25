@@ -58,6 +58,14 @@ img {
 	width: 1200px;
 }
 
+.bg-light {
+	background-color: var(--paleBlue);
+	background-image: url("./images/bg-section-top-desktop-1.svg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+
 nav {
 	display: flex;
 	margin: 30px auto;
